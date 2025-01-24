@@ -1,19 +1,9 @@
-<<<<<<< HEAD
 ### Aquatic Forecast Workflow ###
 devtools::install_github('eco4cast/neon4cast', force = TRUE)
 install.packages('rMR')
 library(tidyverse)
 library(neon4cast)
 library(lubridate)
-=======
-```{r}
-### Aquatic Forecast Workflow ###
-# devtools::install_github("eco4cast/neon4cast")
-library(tidyverse)
-library(neon4cast)
-library(lubridate)
-#install.packages("rMR")
->>>>>>> 4f28967d0c20f1ed162c971839ef253552d6d718
 library(rMR)
 
 forecast_date <- Sys.Date()
@@ -63,9 +53,4 @@ forecast %>%
   facet_grid(variable~site_id, scale ="free")
 
 ### Step 4: Save and submit forecast and metadata
-<<<<<<< HEAD
 submit_forecast(forecast,team_info,submit=FALSE)
-=======
-submit_forecast(forecast,team_info,submit=FALSE)
-```
->>>>>>> 4f28967d0c20f1ed162c971839ef253552d6d718
