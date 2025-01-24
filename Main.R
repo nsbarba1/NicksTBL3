@@ -2,7 +2,7 @@
 library(tidyverse)
 library(neon4cast)
 library(lubridate)
-#install.packages("rMR")
+install.packages("rMR")
 library(rMR)
 
 forecast_date <- Sys.Date()
