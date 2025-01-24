@@ -1,4 +1,4 @@
-### Aquatic Forecast Workflow ###
+### Aquatic Forecast Workflow ##
 ##devtools::install_github("eco4cast/neon4cast")
 library(tidyverse)
 library(neon4cast)
