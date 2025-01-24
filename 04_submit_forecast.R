@@ -1,4 +1,3 @@
-```{r}`
 ##' Save forecast and metadata to file, submit forecast to EFI
 ##' @param forecast dataframe
 ##' @param team_info list, see example
@@ -28,7 +27,7 @@ submit_forecast <- function(forecast,team_info,submit=FALSE){
         forecast_model_id =  system("git rev-parse HEAD", intern=TRUE), ## current git SHA
         name = "Air temperature to water temperature linear regression plus assume saturated oxygen", 
         type = "empirical",  
-        repository = "https://github.com/crouch10/MATH7680_TBL3.git"   ## put your REPO here *******************
+        repository = "https://github.com/nsbarba1/NicksTBL3.git"   ## put your REPO here *******************
       ),
       initial_conditions = list(
         status = "absent"
@@ -64,4 +63,3 @@ submit_forecast <- function(forecast,team_info,submit=FALSE){
   }
   
 }
-```
