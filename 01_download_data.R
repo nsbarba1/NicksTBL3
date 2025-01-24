@@ -1,4 +1,4 @@
-```{r}
+
 ##' Download Targets
 ##' @return data.frame in long format with days as rows, and time, site_id, variable, and observed as columns
 download_targets <- function(){
@@ -80,4 +80,3 @@ download_met_forecast <- function(forecast_date){
   
   return(met_future)
 }
-'''
